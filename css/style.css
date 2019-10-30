@@ -1608,7 +1608,7 @@ body .header__title_dbl{
 @media screen and (max-width: 530px) {
   .header__load_app_db{
     position: relative;
-    transform: translateX(-50%);
+    transform: translateX(-39%);
     left: 50%;
   }
   .works__wrap {
@@ -1684,11 +1684,18 @@ body .header__title_dbl{
   .footer {
     zoom: 80%;
   }
+  .footer__copyright{
+  	text-align: center;
+  }
 }
 
 @media screen and (max-width: 420px) {
   .header__wrap_title {
     zoom: 75%;
+  }
+  .header__load_app_db{
+    font-size: 14px;
+
   }
 }
 
